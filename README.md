@@ -16,14 +16,15 @@ This repository is an implementation of "Generative Adversarial Learning in YUV 
 · matplotlib
 
 # Preparing the data
-· The complete RICE_DATASET for Cloud Removal can be downloaded from:https://github.com/BUPTLdy/RICE_DATASET
+· The complete RICE_DATASET for Cloud Removal can be downloaded from:
+https://github.com/BUPTLdy/RICE_DATASET
 
 · Sentinel-2A images can be downloaded on the SENTINEL Hub website：https://apps.sentinel-hub.com/sentinel-playground/
 
 · An open-source noise generation tool FastNoise Lite (https://github.com/Auburn/FastNoiseLite) is uesd for the simulation of cloud layers.
 
 # Training examples
-At first, you should configure the associated hyperparameters and file paths in config.py.Then, when you set the model name as "WGAN_", execute the following code：
+At first, you should configure the associated hyperparameters and file paths in config.py.Then, if you set the model name as "WGAN_", execute the following code：
 
 python cloud_generation.py --checkpoint_gan=model/WGAN_
 
