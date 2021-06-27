@@ -23,9 +23,9 @@ This repository is an implementation of "Generative Adversarial Learning in YUV 
 · An open-source noise generation tool FastNoise Lite (https://github.com/Auburn/FastNoiseLite) is uesd for the simulation of cloud layers.
 
 # Training examples
-At first, you should configure the associated hyperparameters and file paths in config.py.Then, execute the code：
+At first, you should configure the associated hyperparameters and file paths in config.py.Then, when you set the model name as "WGAN_", execute the following code：
 
-python cloud_generation.py --checkpoint_gan=model/WGAN
+python cloud_generation.py --checkpoint_gan=model/WGAN_
 
 
 
