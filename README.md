@@ -27,5 +27,8 @@ At first, you should configure the associated hyperparameters and file paths in 
 
 python cloud_generation.py --checkpoint_gan=model/WGAN_
 
+# Testing examples
+python test.py  --model_path=model/CloudRemovalGAN_WGAN_
 
-
+# License
+Academic use only.
